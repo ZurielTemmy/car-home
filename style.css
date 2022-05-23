@@ -1,0 +1,101 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/* body {
+    background: gray;
+} */
+.header {
+    background: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    width: 100%;
+
+}
+.header h2 {
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+    border: 2px rgb(215, 194, 194) solid;
+    padding: 5px 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 15px;
+}
+.header h2 .home {
+    color: red;
+}
+.header .nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.header .nav ul li {
+    list-style: none;
+    margin-left: 30px;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.header .nav ul li:hover {
+    border: 1px solid rgb(194, 22, 22);
+}
+.header .nav ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.section {
+    width: 90%;
+    display: block;
+}
+.section h3 {
+    font-weight: lighter;
+    width: 35%;
+    position: relative;
+    margin-left: 120px;
+    margin-top: 14%;
+    letter-spacing: 1px;
+    
+}
+.section h3 span {
+    color: red;
+}
+.section .image {
+    float: right;
+    width: 45%;
+    /* position: relative; */
+    margin-top: -200px;
+}
+.section img {
+    width: 700px;
+}
+.section .btns {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+.section .btn {
+    padding: 9px 16px;
+    justify-content: space-between;
+    border-radius: 15px;
+    outline: none;
+    border: 1px black solid;
+    background: red;
+    color: white;
+}
+.section .btn:hover {
+    border: 1.5px solid red;
+}
+.section button {
+   
+}
